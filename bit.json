@@ -1,0 +1,16 @@
+{
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm",
+    "overrides": {
+        "components/*": {
+            "env": {
+                "compiler": "bit.envs/compilers/angular@0.2.0"
+            }
+        },
+        "utils/*": {
+            "env": {
+                "compiler": "bit.envs/compilers/typescript@3.0.34"
+            }
+        }
+    }
+}
